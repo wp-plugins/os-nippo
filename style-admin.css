@@ -1,0 +1,198 @@
+#osnp-plugin{
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+#osnp-plugin a{
+	color:blue;
+}
+#osnp-plugin a:hover, #osnp-plugin .onclick:hover{
+	color:black;
+}
+#osnp-plugin .onclick{
+	cursor:pointer;text-decoration:underline;color:blue;
+}
+.osnp-wrap h2{
+	margin:15px 0 15px 0;padding:0;
+	font-size:180%;font-weight:bold;
+}
+.osnp-wrap h3{
+	margin:15px 0 15px 0;padding:0;
+	font-size:140%;font-weight:bold;
+}
+.osnp-wrap h3.green{
+	font-size:120%;color:green;
+}
+.osnp-contents{
+	padding:5px;
+}
+#osnp-plugin .msg, #osnp-plugin .msg-output{
+	color:red;
+}
+#osnp-plugin .osnp-pagetitle{
+	margin:15px 0 15px 0;font-weight:bold;font-size:17px;
+}
+.osnp-contents table{
+	margin:0;border-collapse:collapse;background-color:#ffffff;
+}
+.osnp-contents th, .osnp-contents td{
+	padding:5px;border:1px solid #ccc;
+}
+.osnp-contents th{
+	background-color:#DCDCDC;
+}
+/*pluginHeader*/
+#osnp-plugin #osnp-header{
+	margin-top:10px;margin-right:10px;padding:5px;background-color:#0F4F22;color:white;
+}
+#osnp-plugin #osnp-header .plugin-name{
+	font-size:20px;display:inline-block;
+}
+#osnp-plugin #osnp-header .header-link{
+	padding:0 10px 0 10px;float:right;display:inline-block;
+}
+#osnp-plugin #osnp-header .header-link a{
+	color:white;text-decoration:none;
+}
+#osnp-plugin #osnp-header .header-link a:hover{
+	color:red;
+}
+/*pluginHeadrMenu*/
+#osnp-plugin #osnp-headmenu{
+	margin-right:10px;padding:3px 5px 3px 5px;background-color:#D4D0C8;
+}
+#osnp-plugin #osnp-headmenu span{
+	margin-right:15px;
+}
+/*form*/
+#osnp-plugin form{
+	font-size:100%;
+}
+#osnp-plugin table{
+	margin:0;border-collapse:collapse;
+}
+#osnp-plugin th, #osnp-plugin td{
+	padding:5px;border:1px solid #ccc;
+}
+#osnp-plugin th{
+	background-color:#DCDCDC;
+}
+#osnp-plugin .red_message{
+	margin:10px 0 10px 0;padding:0;color:red;
+}
+#osnp-plugin .red_message p{
+	margin:0;padding:5px 0 5px 0;
+}
+.osnp-form .form-inp{
+	padding:5px;
+}
+.osnp-form .inline{
+	display:inline-block;
+}
+.osnp-form .mr15{
+	margin-right:15px;
+}
+.osnp-form .form-inp label{
+	padding:5px;
+}
+.osnp-form textarea, .osnp-form input{
+	-moz-border-radius:5px;-webkit-border-radius:5px;
+	border-radius:5px;border:1px #ccc solid;
+}
+.osnp-form .submit input{
+	padding:5px;line-height:100%;background-color:white;
+}
+.osnp-form .submit input:hover{
+	background-color:#ccc;font-weight:bold;cursor:pointer;
+}
+.osnp-form small.warning{
+	color:red;
+}
+.osnp-form .heading{
+	margin:15px 0 10px 0;font-weight:bold;font-size:17px;
+}
+.osnp-form td .div-inp{
+	margin:5px 0 5px 0;
+}
+.osnp-form td .div-inp .div-inp-inp{
+	padding:5px;
+}
+.osnp-form td .div-inp .pl15{
+	padding-left:15px;
+}
+.osnp-form td .div-inp .default-value{
+	width:170px;
+}
+.osnp-form .val-msg{
+	font-size:11px;color:red;
+}
+.osnp-form .js-button:hover{
+	cursor:pointer;
+}
+/* copy or del */
+.osnp-form .copy-or-del .first{
+	margin:15px 0 15px 0;
+}
+.osnp-form .copy-or-del .l15{
+	padding-left:15px;
+}
+.osnp-form .copy-or-del .l25{
+	padding-left:25px;
+}
+.osnp-form .copy-or-del .click-copy, .osnp-form .copy-or-del .click-del{
+	color:blue;cursor:pointer;
+}
+.osnp-form .copy-or-del .click-copy:hover, .osnp-form .copy-or-del .click-del:hover{
+	color:black;
+}
+.osnp-form .text-copy, .osnp-form .text-del{
+	margin-top:10px;color:red;
+}
+.osnp-form .form-del{
+	margin:10px 0 0 10px;
+}
+.osnp-form .form-del .red, .osnp-form .input-del .red{
+	color:red;
+}
+/**/
+.nippo-detail .theme_title{
+	margin:5px 0 5px 0;padding:0;
+}
+.nippo-detail .post_data th, .nippo-detail .form_data th, .nippo-detail .post_data td, .nippo-detail .form_data td{
+	padding:5px;
+}
+.nippo-detail .post_data th, .nippo-detail .form_data th{
+	min-width:100px;
+}
+.nippo-detail .post_data td label, .nippo-detail .form_data td label{
+	margin:0 0 2px 0;padding:3px 5px 3px 5px;border:1px solid #000;display:inline-block;
+}
+/* pager */
+.osnp-pager{
+	margin:15px 0 15px 0;
+}
+.osnp-pager li{
+	display:inline-block;border:1px solid #ccc;
+}
+.osnp-pager .link{
+	margin:0 2px 0 2px;background-color:white;font-weight:bold;
+}
+.osnp-pager .active{
+	background-color:#ccc;
+}
+.osnp-pager .link a{
+	padding:5px;text-decoration:none;
+}
+.osnp-pager .link:hover{
+	background-color:blue;color:white;
+}
+/*clearfix*/
+#osnp-plugin .clearfix:after{
+	content:".";display:block;height:0;font-size:0;
+	clear:both;visibility:hidden;
+}
+#osnp-plugin .clearfix{
+	display:inline-block;
+}
+/* Hides from IE Mac \*/
+* html #osnp-plugin .clearfix{height: 1%;}
+#osnp-plugin .clearfix{display:block;}
+/* End Hack */

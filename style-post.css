@@ -1,0 +1,55 @@
+/*customBox*/
+.osnp_box{
+	margin:0 5px 0 5px;
+}
+.osnp_box .osnp_inner_custom_box{
+	padding:5px 0 5px 0;
+}
+.osnp_box .osnp_inner_custom_box textarea{
+	display:block;
+}
+.osnp_box .inline{
+	margin-right:10px;display:inline-block;
+}
+.osnp_box .block{
+	display:block;
+}
+.osnp_box .text-left{
+	text-align:left;
+}
+.osnp_box .text-right{
+	text-align:right;
+}
+.osnp_box .float-left{
+	float:left;
+}
+.osnp_box .float-right{
+	float:right;
+}
+.osnp_box .size-big input, .osnp_box .size-big textarea{
+	width:450px;
+}
+.osnp_box .size-middle input, .osnp_box .size-middle textarea{
+	width:250px;
+}
+.osnp_box .size-small input, .osnp_box .size-small textarea{
+	width:100px;
+}
+.osnp_box .size-max{
+	width:100%;
+}
+.osnp_box .size-max input, .osnp_box .size-max textarea{
+	width:100%;
+}
+/*clearfix*/
+.osnp_box .clearfix:after{
+	content:".";display:block;height:0;font-size:0;
+	clear:both;visibility:hidden;
+}
+.osnp_box .clearfix{
+	display:inline-block;
+}
+/* Hides from IE Mac \*/
+* html .osnp_box .clearfix{height: 1%;}
+.osnp_box .clearfix{display:block;}
+/* End Hack */
