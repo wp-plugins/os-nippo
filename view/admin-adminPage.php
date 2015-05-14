@@ -21,6 +21,7 @@ if(class_exists('osNippoAdminClass')){
 			</div>
 			<h2>更新履歴</h2>
 			<div class="osnp-contents">
+				<p>2015.05.14 軽微な修正</p>
 				<p>2015.05.12 リリース</p>
 			</div>
 		</div>

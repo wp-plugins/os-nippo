@@ -42,9 +42,9 @@ class osNippoPluginInstallClass {
 	// sqlを操作するファイルを読み込み、sqlを実行
 	public function sql_performs($sql=''){
 
-		global $osmp_sqlfile_check;
+		global $osnp_sqlfile_check;
 		// 既に読み込まれていないければファイル読み込み
-		if($osmp_sqlfile_check!='1'){
+		if($osnp_sqlfile_check!='1'){
 			require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
 			$GLOBALS['osnp_sqlfile_check'] = 1; // 読み込みチェック
 		}
@@ -237,12 +237,12 @@ class osNippoPluginInstallClass {
 						$before_val_hour = 7 + $i;
 						$before_hour = sprintf("%02d", $before_val_hour);
 						$before_input_value = $before_hour.':30';
-						$wpdb->insert(OSNP_THEME_INPUT_TABLE, array('form_id'=>$form_id, 'input_title'=>'開始', 'input_label'=>'開始', 'input_name'=>'gm_start_hi'.$i, 'input_time_num'=>45, 'input_class'=>'inline', 'input_value'=>$before_input_value, 'create_time'=>$now), array('%d', '%s', '%s', '%s', '%d', '%s', '%s'));
+						$wpdb->insert(OSNP_THEME_INPUT_TABLE, array('form_id'=>$form_id, 'input_title'=>'開始', 'input_label'=>'開始', 'input_name'=>'gm_start_hi'.$i, 'input_time_num'=>45, 'input_class'=>'inline', 'input_value'=>$before_input_value, 'create_time'=>$now), array('%d', '%s', '%s', '%s', '%d', '%s', '%s', '%s'));
 						$after_val_hour = 8 + $i;
 						$after_hour = sprintf("%02d", $after_val_hour);
 						$after_input_value = $after_hour.':30';
-						$wpdb->insert(OSNP_THEME_INPUT_TABLE, array('form_id'=>$form_id, 'input_title'=>'終了', 'input_label'=>'終了', 'input_name'=>'gm_end_hi'.$i, 'input_time_num'=>45, 'input_class'=>'inline', 'input_value'=>$after_input_value, 'create_time'=>$now), array('%d', '%s', '%s', '%s', '%d', '%s', '%s'));
-						$wpdb->insert(OSNP_THEME_INPUT_TABLE, array('form_id'=>$form_id, 'input_title'=>'内容', 'input_label'=>'内容', 'input_name'=>'text'.$i, 'input_type'=>1, 'input_class'=>'block size-max', 'create_time'=>$now), array('%d', '%s', '%s', '%s', '%d', '%s'));
+						$wpdb->insert(OSNP_THEME_INPUT_TABLE, array('form_id'=>$form_id, 'input_title'=>'終了', 'input_label'=>'終了', 'input_name'=>'gm_end_hi'.$i, 'input_time_num'=>45, 'input_class'=>'inline', 'input_value'=>$after_input_value, 'create_time'=>$now), array('%d', '%s', '%s', '%s', '%d', '%s', '%s', '%s'));
+						$wpdb->insert(OSNP_THEME_INPUT_TABLE, array('form_id'=>$form_id, 'input_title'=>'内容', 'input_label'=>'内容', 'input_name'=>'text'.$i, 'input_type'=>1, 'input_class'=>'block size-max', 'create_time'=>$now), array('%d', '%s', '%s', '%s', '%d', '%s', '%s'));
 					}
 				}
 			}

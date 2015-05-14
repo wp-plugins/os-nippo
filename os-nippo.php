@@ -3,7 +3,7 @@
 Plugin Name: OS日報プラグイン
 Plugin URI: http://lp.olivesystem.jp/plugin-nippo
 Description: WordPressで日報を作成できるプラグインです。
-Version: 1.0.0
+Version: 1.0.1
 Author: OLIVESYSTEM（オリーブシステム）
 Author URI: http://lp.olivesystem.jp/
 */
@@ -11,7 +11,7 @@ if(!isset($wpdb)){
 	global $wpdb;
 }
 // 現在のプラグインバージョン
-define('OSNP_PLUGIN_VERSION','1.0.0');
+define('OSNP_PLUGIN_VERSION','1.0.1');
 // 設定を保存する項目名
 define('OSNP_PLUGIN_OPTION_NAME', 'osnp_option');
 // サイトURL

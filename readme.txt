@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-日報プラグインです。
+日報プラグインです。カスタム投稿を利用して、日報が書け、管理できます。
 
 == Installation ==
 
@@ -21,6 +21,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Screenshots ==
 
 == Changelog ==
+
+= 1.0.1 =
+* 2015-05-14  軽微な修正
 
 = 1.0.0 =
 * 2015-05-12  First release
