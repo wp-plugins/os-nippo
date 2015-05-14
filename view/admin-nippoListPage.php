@@ -10,6 +10,7 @@ if(class_exists('osNippoAdminClass')){
 			<?php
 			if(!empty($list)){
 			?>
+				<div style="margin-bottom:10px;font-size:12px;">公開、非公開、レビュー待ちのものが表示されています。</div>
 				<table>
 					<tr>
 					<th>タイトル</th><th>投稿者</th><th>投稿日時</th>

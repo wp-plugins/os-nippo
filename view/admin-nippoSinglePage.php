@@ -5,7 +5,7 @@ if(class_exists('osNippoAdminClass')){
 	<div id="osnp-plugin">
 	<?php include_once(OSNP_PLUGIN_VIEW_DIR."/admin-head.php"); ?>
 		<div class="osnp-wrap">
-			<h2>日報の投稿詳細 id:</h2>
+			<h2>日報の投稿詳細 id:<?php echo esc_html($get_id); ?></h2>
 			<div class="osnp-contents nippo-detail">
 			<?php
 			if(!empty($detail)){

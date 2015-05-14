@@ -17,7 +17,7 @@ class osNippoListClass extends osNippoPluginCommonClass {
 		$data = osNippoThemeClass::getThemeList();
 		global $post;
 		$paged = (isset($_GET['p'])) ? $_GET['p']: 1;
-		$arr = array('numberposts'=>20, 'paged'=>$paged);
+		$arr = array('numberposts'=>20, 'paged'=>$paged, 'post_status'=>array('publish', 'pending', 'private'));
 		// テーマデータがあれば
 		if(isset($data) && isset($data[0])){
 			$post_type = array();
